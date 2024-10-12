@@ -1,0 +1,93 @@
+{
+    "Decatur Blvd & Russel Rd": {
+        "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/73c2fe7c-2f08-43d4-bca5-e43e7fca737c_lvflirxcd06_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 48297,
+        "last_maintenance_date": "03-20-2023",
+        "total_score": 80.846
+    },
+    "Decatur Blvd & Sunset Rd": {
+        "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/771f655a-1721-480c-8d92-0108acb804a9_lvflirxcd01_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 27427,
+        "last_maintenance_date": "03-20-2022",
+        "total_score": 80.5707
+    },
+    "Ann Rd & Commerce St": {
+        "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/58eff5a7-5521-44ea-9c97-bd6040b43f6b_lvflirxcd01_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 9728,
+        "last_maintenance_date": "04-19-2021",
+        "total_score": 80.007
+    },
+    "Boulder Hwy & Major Ave": {
+        "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/dccccb52-23d5-4ac5-a8d0-4261fced9ac1_lvflirxcd03_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 87142,
+        "last_maintenance_date": "06-25-2020",
+        "total_score": 59.6028
+    },
+    "Craig Rd & Commerce St": {
+        "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/2be839ce-7a45-434a-b057-6d20952e86c9_lvflirxcd01_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 10492,
+        "last_maintenance_date": "01-20-2024",
+        "total_score": 92.8917
+    },
+    "Durango Dr & Ann Rd": {
+        "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/712df297-3589-4497-98e9-11ed822c705a_lvflirxcd04_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 21094,
+        "last_maintenance_date": "07-10-2021",
+        "total_score": 78.6422
+    },
+    "Flamingo Rd & Pecos Rd": {
+        "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/c51c091c-be44-420e-b4ed-f1ea024957fa_lvflirxcd04_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 65832,
+        "last_maintenance_date": "05-09-2018",
+        "total_score": 54.0648
+    },
+    "I580 @ Neil Rd": {
+        "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/c5b1bd96-f15a-42f3-805b-c9967885c87f_lvflirxcd03_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 37846,
+        "last_maintenance_date": "11-21-2019",
+        "total_score": 67.3201
+    },
+    "I580 @ Northgate": {
+        "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/65388c60-a4aa-4164-941a-48d97a22e36e_lvflirxcd04_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 63748,
+        "last_maintenance_date": "09-29-2017",
+        "total_score": 51.6306
+    },
+    "Las Vegas Blvd & Reno": {
+        "video_url": "https://d1wse5.its.nv.gov:443/vegasxcd05/fcfc87c2-da9a-48b8-a10e-1760b2142140_lvflirxcd05_public.stream/playlist.m3u8",
+        "total_weather_score": 95.75,
+        "num_vehicles_past_year": 84902,
+        "last_maintenance_date": "02-01-2021",
+        "total_score": 62.9478
+    },
+    "10th Ave & 14th St": {
+        "video_url": null,
+        "total_weather_score": 90.15,
+        "num_vehicles_past_year": 102845,
+        "last_maintenance_date": "10-17-2023",
+        "total_score": 70.0622
+    },
+    "5th Ave & 23rd St": {
+        "video_url": null,
+        "total_weather_score": 90.15,
+        "num_vehicles_past_year": 156023,
+        "last_maintenance_date": "04-01-2022",
+        "total_score": 51.3859
+    },
+    "Park Ave & 57th St": {
+        "video_url": null,
+        "total_weather_score": 90.15,
+        "num_vehicles_past_year": 92305,
+        "last_maintenance_date": "08-26-2020",
+        "total_score": 57.4373
+    }
+}
