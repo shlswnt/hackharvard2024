@@ -1,0 +1,6 @@
+__pycache__/
+api/__pycache__/
+env/
+!api/main.py
+!vercel.json
+!requirements.txt
