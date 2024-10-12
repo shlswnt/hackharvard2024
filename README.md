@@ -11,3 +11,9 @@
     - `source env/bin/activate`
     - `uvicorn main:app --reload`
 - Navigate to `localhost:8000` on your browser
+
+## Get Video Frames
+- `localhost:8000/video/?video_url={URL_HERE}.m3u8`
+
+## Get Traffic Intersection Data
+- `localhost:8000/intersection/?intersection_name={NAME_HERE}`
