@@ -1,3 +1,5 @@
+# Traffix: HackHarvard 2024
+
 ## Installation
 - Create a new virtual environment with: `python3 -m venv env`
 - Activate your virtual environment with: `source env/bin/activate`
