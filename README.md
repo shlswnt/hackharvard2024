@@ -15,6 +15,9 @@
 ## Get All Intersection Names
 - `localhost:8000/get_all_names/`
 
+## Get All City Names
+- `localhost:8000/get_all_cities/`
+
 ## Get Video Frames
 - `localhost:8000/video/?name=NAME_HERE`
 
