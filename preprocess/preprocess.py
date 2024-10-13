@@ -5,8 +5,8 @@ from weather.weather import weather_score
 CURR_DATE = "10-13-2024"
 MAX_VEHICLE_WEIGHT = 0
 
-INPUT_JSON = "test.json"
-OUTPUT_JSON = "rest.json"
+INPUT_JSON = "input.json"
+OUTPUT_JSON = "results.json"
 
 def time_since_last_maintenance(maintenance_date: str):
     date_format = "%m-%d-%Y"
@@ -14,6 +14,18 @@ def time_since_last_maintenance(maintenance_date: str):
     current_date = datetime.strptime(CURR_DATE, date_format)
     delta = current_date - last_maintenance
     return delta.days
+
+def time_to_next_maintenance(data):
+    # get mean of vehicle score and weather score
+    # get the total score and maitenece date for this name in json
+    total_score = data['total_score']
+    maintenance_date = data['last_maintenance_date']
+    # get the slop of the line based of days from last maintence date till now and 100 - total score
+    days_since_maintenance = time_since_last_maintenance(maintenance_date)
+    slope = ((total_score - 100 ) / days_since_maintenance) / 1.75
+    # get the days to next maintenance
+    return (total_score - 100) / slope
+
 
 def calculate_vehicle_score(data):
     if (data["num_cars_last_maintenance"] + data["num_trucks_last_maintenance"] != data["num_vehicles_last_maintenance"]):
@@ -59,6 +71,7 @@ for key, value in results.items():
 for key, value in results.items():
     value["vehicle_score_last_maintenance"] = round(calculate_vehicle_score(value), 4)
     value["total_score"] = round(calculate_total_score(value), 4)
+    value["days_to_next_maintenance"] = time_to_next_maintenance(value)
 
 
 with open(OUTPUT_JSON, "w") as result_json:
