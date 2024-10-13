@@ -11,6 +11,9 @@ model = YOLO('yolov8n.pt')
 with open("../preprocess/results.json", "r") as data_json:
     data = json.load(data_json)
 
+with open("../preprocess/cities.json", "r") as cities_json:
+    cities = json.load(cities_json)
+
 
 # Helper Functions
 
@@ -72,3 +75,7 @@ def get_frames(name: str):
 @app.get("/intersection/")
 def get_intersection_score(name: str):
     return data[name]
+
+@app.get("/city/")
+def get_intersection_in_city(name: str):
+    return cities[name]

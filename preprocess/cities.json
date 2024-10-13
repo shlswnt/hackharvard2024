@@ -1,0 +1,23 @@
+{
+    "Las Vegas": [
+        "Decatur_Blvd_and_Russel_Rd", 
+        "Decatur_Blvd_and_Sunset_Rd",
+        "Ann_Rd_and_Commerce_St",
+        "Boulder_Hwy_and_Major_Ave",
+        "Craig_Rd_and_Commerce_St",
+        "Durango_Dr_and_Ann_Rd",
+        "Flamingo_Rd_and_Pecos_Rd",
+        "I580_and_Neil_Rd",
+        "I580_and_Northgate",
+        "Las_Vegas_Blvd_and_Reno"
+    ],
+    "New York City": [
+        "10th_Ave_and_14th_St",
+        "5th_Ave_and_23rd_St",
+        "Bronx_River_Parkway_at_Sagamore_St"
+    ],
+    "Atlanta": [
+        "I16E_WGwinnettSt",
+        "I95N_at_US17"
+    ]
+}

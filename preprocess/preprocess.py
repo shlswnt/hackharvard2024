@@ -55,7 +55,7 @@ with open(INPUT_JSON, "r") as input_json:
 
 
 for key, value in results.items():
-    final_score, penalty_counts, total_penalty = weather_score('lv', value["last_maintenance_date"])
+    final_score, penalty_counts, total_penalty = weather_score(value["city"], value["last_maintenance_date"])
 
     value["weather_score_last_maintenance"] = round(final_score, 4)
     value["weather_penalties"] = {

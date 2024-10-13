@@ -1,5 +1,8 @@
 {
     "Decatur_Blvd_and_Russel_Rd": {
+        "city": "lv",
+        "latitude": 36.08640150363696,
+        "longitude": -115.20798281438445,
         "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/73c2fe7c-2f08-43d4-bca5-e43e7fca737c_lvflirxcd06_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 41908,
         "num_trucks_last_maintenance": 6389,
@@ -19,6 +22,9 @@
         "days_to_next_maintenance": 1002.75
     },
     "Decatur_Blvd_and_Sunset_Rd": {
+        "city": "lv",
+        "latitude": 36.071788427559646,
+        "longitude": -115.20790189919035,
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/771f655a-1721-480c-8d92-0108acb804a9_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 19800,
         "num_trucks_last_maintenance": 7627,
@@ -38,6 +44,9 @@
         "days_to_next_maintenance": 1641.5
     },
     "Ann_Rd_and_Commerce_St": {
+        "city": "lv",
+        "latitude": 36.261597295133726,
+        "longitude": -115.14403890543558,
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/58eff5a7-5521-44ea-9c97-bd6040b43f6b_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 7320,
         "num_trucks_last_maintenance": 2408,
@@ -57,6 +66,9 @@
         "days_to_next_maintenance": 2227.75
     },
     "Boulder_Hwy_and_Major_Ave": {
+        "city": "lv",
+        "latitude": 36.030077270019405,
+        "longitude": -114.97125613254352,
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/dccccb52-23d5-4ac5-a8d0-4261fced9ac1_lvflirxcd03_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 70250,
         "num_trucks_last_maintenance": 16892,
@@ -76,6 +88,9 @@
         "days_to_next_maintenance": 2749.25
     },
     "Craig_Rd_and_Commerce_St": {
+        "city": "lv",
+        "latitude": 36.239537525384414,
+        "longitude": -115.14376310693709,
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/2be839ce-7a45-434a-b057-6d20952e86c9_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 8000,
         "num_trucks_last_maintenance": 2492,
@@ -95,6 +110,9 @@
         "days_to_next_maintenance": 467.25
     },
     "Durango_Dr_and_Ann_Rd": {
+        "city": "lv",
+        "latitude": 36.26297320326423,
+        "longitude": -115.27883667386145,
         "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/712df297-3589-4497-98e9-11ed822c705a_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 16500,
         "num_trucks_last_maintenance": 4594,
@@ -114,6 +132,9 @@
         "days_to_next_maintenance": 2084.25
     },
     "Flamingo_Rd_and_Pecos_Rd": {
+        "city": "lv",
+        "latitude": 36.11524975333824,
+        "longitude": -115.10093517252136,
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/c51c091c-be44-420e-b4ed-f1ea024957fa_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 50000,
         "num_trucks_last_maintenance": 15832,
@@ -133,6 +154,9 @@
         "days_to_next_maintenance": 915.25
     },
     "I580_and_Neil_Rd": {
+        "city": "lv",
+        "latitude": 37.70117515861622,
+        "longitude": -121.9226819135423,
         "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/c5b1bd96-f15a-42f3-805b-c9967885c87f_lvflirxcd03_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 30000,
         "num_trucks_last_maintenance": 7846,
@@ -152,6 +176,9 @@
         "days_to_next_maintenance": 1211.0
     },
     "I580_and_Northgate": {
+        "city": "lv",
+        "latitude": 37.70317987190336,
+        "longitude": -121.92416904971235,
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/65388c60-a4aa-4164-941a-48d97a22e36e_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 52000,
         "num_trucks_last_maintenance": 11748,
@@ -171,6 +198,9 @@
         "days_to_next_maintenance": 2581.25
     },
     "Las_Vegas_Blvd_and_Reno": {
+        "city": "lv",
+        "latitude": 36.0973383180014,
+        "longitude": -115.17295359498048,
         "video_url": "https://d1wse5.its.nv.gov:443/vegasxcd05/fcfc87c2-da9a-48b8-a10e-1760b2142140_lvflirxcd05_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 72435,
         "num_trucks_last_maintenance": 12467,
@@ -190,60 +220,113 @@
         "days_to_next_maintenance": 2362.5
     },
     "10th_Ave_and_14th_St": {
+        "city": "ny",
+        "latitude": 40.742461912766046,
+        "longitude": -74.00800964642748,
         "video_url": null,
         "num_cars_last_maintenance": 87418,
         "num_trucks_last_maintenance": 15427,
         "num_vehicles_last_maintenance": 102845,
         "last_maintenance_date": "10-17-2023",
-        "weather_score_last_maintenance": 94.3521,
+        "weather_score_last_maintenance": 63.1109,
         "weather_penalties": {
-            "rain": [36,0.9297],
-            "snow": [1,0.077],
-            "freezing_rain": [0,0],
-            "cold_temp": [5,0.115],
-            "hot_temp": [106,4.5262],
-            "total_penalty": 5.6479
+            "rain": [185,11.6973],
+            "snow": [12,3.318],
+            "freezing_rain": [19,19],
+            "cold_temp": [69,2.8738],
+            "hot_temp": [0,0],
+            "total_penalty": 36.8891
         },
         "vehicle_score_last_maintenance": 66.8732,
-        "total_score": 80.6127,
+        "total_score": 64.9921,
         "days_to_next_maintenance": 633.5
     },
     "5th_Ave_and_23rd_St": {
+        "city": "ny",
+        "latitude": 0,
+        "longitude": 0,
         "video_url": null,
         "num_cars_last_maintenance": 133512,
         "num_trucks_last_maintenance": 22511,
         "num_vehicles_last_maintenance": 156023,
         "last_maintenance_date": "04-01-2022",
-        "weather_score_last_maintenance": 83.0517,
+        "weather_score_last_maintenance": -31.0984,
         "weather_penalties": {
-            "rain": [124,3.6243],
-            "snow": [3,0.259],
-            "freezing_rain": [3,3],
-            "cold_temp": [20,0.3513],
-            "hot_temp": [227,9.7137],
-            "total_penalty": 16.9483
+            "rain": [478,30.8979],
+            "snow": [31,5.173],
+            "freezing_rain": [90,90],
+            "cold_temp": [127,5.0275],
+            "hot_temp": [0,0],
+            "total_penalty": 131.0984
         },
         "vehicle_score_last_maintenance": 100.0,
-        "total_score": 91.5258,
+        "total_score": 34.4508,
         "days_to_next_maintenance": 1620.5
     },
     "Bronx_River_Parkway_at_Sagamore_St": {
+        "city": "ny",
+        "latitude": 40.74157647279381,
+        "longitude": -73.9896365444929,
         "video_url": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_236/playlist.m3u8",
         "num_cars_last_maintenance": 80910,
         "num_trucks_last_maintenance": 11395,
         "num_vehicles_last_maintenance": 92305,
-        "weather_score_last_maintenance": 77.7816,
         "last_maintenance_date": "08-26-2020",
+        "weather_score_last_maintenance": -38.7578,
         "weather_penalties": {
-            "rain": [134,3.7269],
-            "snow": [3,0.259],
-            "freezing_rain": [8,8],
-            "cold_temp": [29,0.5187],
-            "hot_temp": [227,9.7137],
-            "total_penalty": 22.2184
+            "rain": [511,33.2208],
+            "snow": [51,9.492],
+            "freezing_rain": [87,87],
+            "cold_temp": [188,9.045],
+            "hot_temp": [0,0],
+            "total_penalty": 138.7578
         },
         "vehicle_score_last_maintenance": 56.0356,
-        "total_score": 66.9086,
+        "total_score": 8.6389,
         "days_to_next_maintenance": 2640.75
+    },
+    "I16E_WGwinnettSt": {
+        "city": "at",
+        "latitude": 32.06105342982311,
+        "longitude": -81.07141290268669,
+        "video_url": "https://sfs-lr-37.dot.ga.gov:443/rtplive/GDOT-CCTV-1399/playlist.m3u8",
+        "num_cars_last_maintenance": 70910,
+        "num_trucks_last_maintenance": 10395,
+        "num_vehicles_last_maintenance": 81305,
+        "last_maintenance_date": "07-22-2021",
+        "weather_score_last_maintenance": 26.54,
+        "weather_penalties": {
+            "rain": [553,38.8125],
+            "snow": [3,0.455],
+            "freezing_rain": [31,31],
+            "cold_temp": [87,3.1925],
+            "hot_temp": [0,0],
+            "total_penalty": 73.46
+        },
+        "vehicle_score_last_maintenance": 49.9397,
+        "total_score": 38.2399,
+        "days_to_next_maintenance": 2063.25
+    },
+    "I95N_at_US17": {
+        "city": "at",
+        "latitude": 38.28873452738879,
+        "longitude": -77.50854050299968,
+        "video_url": "https://sfs-lr-36.dot.ga.gov:443/rtplive/GDOT-CCTV-1401/playlist.m3u8",
+        "num_cars_last_maintenance": 75940,
+        "num_trucks_last_maintenance": 10565,
+        "num_vehicles_last_maintenance": 86505,
+        "last_maintenance_date": "10-06-2022",
+        "weather_score_last_maintenance": 44.0441,
+        "weather_penalties": {
+            "rain": [391,26.6409],
+            "snow": [0,0],
+            "freezing_rain": [27,27],
+            "cold_temp": [57,2.315],
+            "hot_temp": [0,0],
+            "total_penalty": 55.9559
+        },
+        "vehicle_score_last_maintenance": 52.3292,
+        "total_score": 48.1867,
+        "days_to_next_maintenance": 1291.5
     }
 }
