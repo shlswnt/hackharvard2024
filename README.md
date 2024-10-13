@@ -12,8 +12,11 @@
     - `uvicorn main:app --reload`
 - Navigate to `localhost:8000` on your browser
 
-## Get Video Frames
-- `localhost:8000/video/?video_url={URL_HERE}.m3u8`
+## Get All Intersection Names
+- `localhost:8000/get_all_names/`
 
-## Get Traffic Intersection Data
-- `localhost:8000/intersection/?intersection_name={NAME_HERE}`
+## Get Video Frames
+- `localhost:8000/video/?name=NAME_HERE`
+
+## Get All Intersection Data
+- `localhost:8000/intersection/?name=NAME_HERE`

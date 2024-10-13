@@ -64,7 +64,7 @@ def calculate_weather_score(df):
 
 def weather_score(city, date):
     date = pd.to_datetime(date)
-    df = pd.read_csv(f'{city}2224.csv', parse_dates=['time'], skiprows=2)
+    df = pd.read_csv(f'weather/{city}2224.csv', parse_dates=['time'], skiprows=2)
 
     # Ensure that 'time' column is in datetime format
     df['time'] = pd.to_datetime(df['time'])
@@ -77,4 +77,4 @@ def weather_score(city, date):
     df = df[df['time'] >= date]
     return calculate_weather_score(df)
 
-print(weather_score('ny', '2023-03-20'))
+print(weather_score('lv', '03-20-2023')) # lv, at, ny

@@ -8,8 +8,8 @@ from ultralytics import YOLO
 app = FastAPI()
 model = YOLO('yolov8n.pt')
 
-with open("../preprocess/results.json", "r") as input_json:
-    data = json.load(input_json)
+with open("../preprocess/results.json", "r") as data_json:
+    data = json.load(data_json)
 
 
 # Helper Functions
@@ -51,13 +51,24 @@ def generate_frames(video_url):
 
 # Routes
 
+@app.get('/')
+def hello_world():
+    return {"Hello": "World"}
+
+@app.get('/get_all_names/')
+def get_intersection_names():
+    return list(data.keys())
+
 @app.get("/video/")
-def get_frames(video_url: str):
-    if video_url.endswith(".m3u8"):
-        return StreamingResponse(generate_frames(video_url), media_type="multipart/x-mixed-replace; boundary=frame")
-    else:
+def get_frames(name: str):
+    video_url = data[name]["video_url"]
+    if not video_url:
+        raise HTTPException(status_code=404, detail="Video does not exist for this intersection")
+    if not video_url.endswith(".m3u8"):
         raise HTTPException(status_code=404, detail="Invalid video format")
+    else:
+        return StreamingResponse(generate_frames(video_url), media_type="multipart/x-mixed-replace; boundary=frame")
     
 @app.get("/intersection/")
-def get_intersection_score(intersection_name: str):
-    return data[intersection_name]
+def get_intersection_score(name: str):
+    return data[name]

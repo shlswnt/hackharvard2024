@@ -1,9 +1,12 @@
 import json
 from datetime import datetime
+from weather.weather import weather_score
 
-CURR_DATE = "10-12-2024"
-MAX_NUM_VEHICLES = 0
-MAX_DAYS_WITHOUT_MAINTENANCE = 0
+CURR_DATE = "10-13-2024"
+MAX_VEHICLE_WEIGHT = 0
+
+INPUT_JSON = "test.json"
+OUTPUT_JSON = "rest.json"
 
 def time_since_last_maintenance(maintenance_date: str):
     date_format = "%m-%d-%Y"
@@ -12,42 +15,51 @@ def time_since_last_maintenance(maintenance_date: str):
     delta = current_date - last_maintenance
     return delta.days
 
-with open("input.json", "r") as input_json:
+def calculate_vehicle_score(data):
+    if (data["num_cars_last_maintenance"] + data["num_trucks_last_maintenance"] != data["num_vehicles_last_maintenance"]):
+        print("ERROR. Cars + Trucks doesn't add up")
+
+    vehicle_weight = data["num_cars_last_maintenance"] + (5 * data["num_trucks_last_maintenance"])
+    normalized_traffic = min(vehicle_weight / MAX_VEHICLE_WEIGHT, 1)
+    return normalized_traffic * 100
+
+def calculate_total_score(data):
+    vehicle_score = data["vehicle_score_last_maintenance"]
+    weather_score = data["weather_score_last_maintenance"]
+    return (vehicle_score + weather_score) / 2
+
+
+with open(INPUT_JSON, "r") as input_json:
     results = json.load(input_json)
 
     for key, value in results.items():
-        MAX_NUM_VEHICLES = max(MAX_NUM_VEHICLES, value["num_vehicles_past_year"])
+        # count 1 truck as 5 cars
+        MAX_VEHICLE_WEIGHT = max(
+            MAX_VEHICLE_WEIGHT, 
+            value["num_cars_last_maintenance"] + (5 * value["num_trucks_last_maintenance"])
+        )
         
         days_since_maintenance = time_since_last_maintenance(value["last_maintenance_date"])
-        MAX_DAYS_WITHOUT_MAINTENANCE = max(MAX_DAYS_WITHOUT_MAINTENANCE, days_since_maintenance)
 
-def calculate_total_score(intersection_data):
-    # Weights for weather, traffic, and maintenance time
-    w1 = w2 = w3 = 1/3
-    
-    # Extract values
-    weather_score = intersection_data["total_weather_score"]
-    num_vehicles = intersection_data["num_vehicles_past_year"]
-    last_maintenance = intersection_data["last_maintenance_date"]
-    
-    # Normalize weather score (0 to 1)
-    normalized_weather = weather_score / 100
-    
-    # Normalize traffic factor (0 to 1)
-    normalized_traffic = min(num_vehicles / MAX_NUM_VEHICLES, 1)
-    
-    # Normalize time since last maintenance (0 to 1)
-    days_since_maintenance = time_since_last_maintenance(last_maintenance)
-    normalized_maintenance = min(days_since_maintenance / MAX_DAYS_WITHOUT_MAINTENANCE, 1)
-    
-    # Calculate the total score
-    total_score = (w1 * normalized_weather + 
-                   w2 * (1 - normalized_traffic) + 
-                   w3 * (1 - normalized_maintenance)) * 100
-    return total_score
 
 for key, value in results.items():
+    final_score, penalty_counts, total_penalty = weather_score('lv', value["last_maintenance_date"])
+
+    value["weather_score_last_maintenance"] = round(final_score, 4)
+    value["weather_penalties"] = {
+        "rain": [penalty_counts['rain_penalty'][0], round(penalty_counts['rain_penalty'][1], 4)],
+        "snow": [penalty_counts['snow_penalty'][0], round(penalty_counts['snow_penalty'][1], 4)],
+        "freezing_rain": [penalty_counts['freezing_rain_penalty'][0], round(penalty_counts['freezing_rain_penalty'][1], 4)],
+        "cold_temp": [penalty_counts['cold_weather_penalty'][0], round(penalty_counts['cold_weather_penalty'][1], 4)],
+        "hot_temp": [penalty_counts['hot_weather_penalty'][0], round(penalty_counts['hot_weather_penalty'][1], 4)],
+        "total_penalty": round(total_penalty, 4)
+    }
+
+
+for key, value in results.items():
+    value["vehicle_score_last_maintenance"] = round(calculate_vehicle_score(value), 4)
     value["total_score"] = round(calculate_total_score(value), 4)
 
-with open("results.json", "w") as result_json:
+
+with open(OUTPUT_JSON, "w") as result_json:
     result_json.write(json.dumps(results, indent=4))
