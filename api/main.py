@@ -1,6 +1,7 @@
 import cv2
 import json
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from ultralytics import YOLO
 
@@ -14,6 +15,14 @@ with open("../preprocess/results.json", "r") as data_json:
 with open("../preprocess/cities.json", "r") as cities_json:
     cities = json.load(cities_json)
 
+# Enable CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
 
 # Helper Functions
 
@@ -50,7 +59,6 @@ def generate_frames(video_url):
                b'Content-Type: image/jpeg\r\n\r\n' + buffer.tobytes() + b'\r\n')
 
     cap.release()
-
 
 # Routes
 
