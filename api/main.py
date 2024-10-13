@@ -62,6 +62,10 @@ def hello_world():
 def get_intersection_names():
     return list(data.keys())
 
+@app.get('/get_all_cities/')
+def get_city_names():
+    return list(cities.keys())
+
 @app.get("/video/")
 def get_frames(name: str):
     video_url = data[name]["video_url"]
