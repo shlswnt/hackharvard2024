@@ -20,3 +20,6 @@
 
 ## Get All Intersection Data
 - `localhost:8000/intersection/?name=NAME_HERE`
+
+## Get Intersection Data Within a City
+- `localhost:8000/city/?name=CITY_NAME_HERE`
