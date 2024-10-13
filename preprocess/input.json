@@ -1,90 +1,90 @@
 {
-    "Decatur_Blvd_+_Russel_Rd": {
+    "Decatur_Blvd_and_Russel_Rd": {
         "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/73c2fe7c-2f08-43d4-bca5-e43e7fca737c_lvflirxcd06_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 41908,
         "num_trucks_last_maintenance": 6389,
         "num_vehicles_last_maintenance": 48297,
         "last_maintenance_date": "03-20-2023"
     },
-    "Decatur_Blvd_+_Sunset_Rd": {
+    "Decatur_Blvd_and_Sunset_Rd": {
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/771f655a-1721-480c-8d92-0108acb804a9_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 19800,
         "num_trucks_last_maintenance": 7627,
         "num_vehicles_last_maintenance": 27427,
         "last_maintenance_date": "03-20-2022"
     },
-    "Ann_Rd_+_Commerce_St": {
+    "Ann_Rd_and_Commerce_St": {
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/58eff5a7-5521-44ea-9c97-bd6040b43f6b_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 7320,
         "num_trucks_last_maintenance": 2408,
         "num_vehicles_last_maintenance": 9728,
         "last_maintenance_date": "04-19-2021"
     },
-    "Boulder_Hwy_+_Major_Ave": {
+    "Boulder_Hwy_and_Major_Ave": {
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/dccccb52-23d5-4ac5-a8d0-4261fced9ac1_lvflirxcd03_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 70250,
         "num_trucks_last_maintenance": 16892,
         "num_vehicles_last_maintenance": 87142,
         "last_maintenance_date": "06-25-2020"
     },
-    "Craig_Rd_+_Commerce_St": {
+    "Craig_Rd_and_Commerce_St": {
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/2be839ce-7a45-434a-b057-6d20952e86c9_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 8000,
         "num_trucks_last_maintenance": 2492,
         "num_vehicles_last_maintenance": 10492,
         "last_maintenance_date": "01-20-2024"
     },
-    "Durango_Dr_+_Ann_Rd": {
+    "Durango_Dr_and_Ann_Rd": {
         "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/712df297-3589-4497-98e9-11ed822c705a_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 16500,
         "num_trucks_last_maintenance": 4594,
         "num_vehicles_last_maintenance": 21094,
         "last_maintenance_date": "07-10-2021"
     },
-    "Flamingo_Rd_+_Pecos_Rd": {
+    "Flamingo_Rd_and_Pecos_Rd": {
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/c51c091c-be44-420e-b4ed-f1ea024957fa_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 50000,
         "num_trucks_last_maintenance": 15832,
         "num_vehicles_last_maintenance": 65832,
         "last_maintenance_date": "05-09-2023"
     },
-    "I580_+_Neil_Rd": {
+    "I580_and_Neil_Rd": {
         "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/c5b1bd96-f15a-42f3-805b-c9967885c87f_lvflirxcd03_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 30000,
         "num_trucks_last_maintenance": 7846,
         "num_vehicles_last_maintenance": 37846,
         "last_maintenance_date": "11-21-2022"
     },
-    "I580_+_Northgate": {
+    "I580_and_Northgate": {
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/65388c60-a4aa-4164-941a-48d97a22e36e_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 52000,
         "num_trucks_last_maintenance": 11748,
         "num_vehicles_last_maintenance": 63748,
         "last_maintenance_date": "09-29-2020"
     },
-    "Las_Vegas_Blvd_+_Reno": {
+    "Las_Vegas_Blvd_and_Reno": {
         "video_url": "https://d1wse5.its.nv.gov:443/vegasxcd05/fcfc87c2-da9a-48b8-a10e-1760b2142140_lvflirxcd05_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 72435,
         "num_trucks_last_maintenance": 12467,
         "num_vehicles_last_maintenance": 84902,
         "last_maintenance_date": "02-01-2021"
     },
-    "10th_Ave_+_14th_St": {
+    "10th_Ave_and_14th_St": {
         "video_url": null,
         "num_cars_last_maintenance": 87418,
         "num_trucks_last_maintenance": 15427,
         "num_vehicles_last_maintenance": 102845,
         "last_maintenance_date": "10-17-2023"
     },
-    "5th_Ave_+_23rd_St": {
+    "5th_Ave_and_23rd_St": {
         "video_url": null,
         "num_cars_last_maintenance": 133512,
         "num_trucks_last_maintenance": 22511,
         "num_vehicles_last_maintenance": 156023,
         "last_maintenance_date": "04-01-2022"
     },
-    "Park_Ave_+_57th_St": {
-        "video_url": null,
+    "Bronx_River_Parkway_at_Sagamore_St": {
+        "video_url": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_236/playlist.m3u8",
         "num_cars_last_maintenance": 80910,
         "num_trucks_last_maintenance": 11395,
         "num_vehicles_last_maintenance": 92305,

@@ -1,5 +1,5 @@
 {
-    "Decatur_Blvd_+_Russel_Rd": {
+    "Decatur_Blvd_and_Russel_Rd": {
         "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/73c2fe7c-2f08-43d4-bca5-e43e7fca737c_lvflirxcd06_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 41908,
         "num_trucks_last_maintenance": 6389,
@@ -7,33 +7,18 @@
         "last_maintenance_date": "03-20-2023",
         "weather_score_last_maintenance": 90.3835,
         "weather_penalties": {
-            "rain": [
-                65,
-                2.2257
-            ],
-            "snow": [
-                1,
-                0.077
-            ],
-            "freezing_rain": [
-                0,
-                0
-            ],
-            "cold_temp": [
-                5,
-                0.115
-            ],
-            "hot_temp": [
-                159,
-                7.1988
-            ],
+            "rain": [65,2.2257],
+            "snow": [1,0.077],
+            "freezing_rain": [0,0],
+            "cold_temp": [5,0.115],
+            "hot_temp": [159,7.1988],
             "total_penalty": 9.6165
         },
         "vehicle_score_last_maintenance": 30.0134,
         "total_score": 60.1985,
         "days_to_next_maintenance": 1002.75
     },
-    "Decatur_Blvd_+_Sunset_Rd": {
+    "Decatur_Blvd_and_Sunset_Rd": {
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/771f655a-1721-480c-8d92-0108acb804a9_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 19800,
         "num_trucks_last_maintenance": 7627,
@@ -41,33 +26,18 @@
         "last_maintenance_date": "03-20-2022",
         "weather_score_last_maintenance": 83.9698,
         "weather_penalties": {
-            "rain": [
-                127,
-                3.7062
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                2,
-                2
-            ],
-            "cold_temp": [
-                20,
-                0.3513
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [127,3.7062],
+            "snow": [3,0.259],
+            "freezing_rain": [2,2],
+            "cold_temp": [20,0.3513],
+            "hot_temp": [227,9.7137],
             "total_penalty": 16.0302
         },
         "vehicle_score_last_maintenance": 23.5444,
         "total_score": 53.7571,
         "days_to_next_maintenance": 1641.5
     },
-    "Ann_Rd_+_Commerce_St": {
+    "Ann_Rd_and_Commerce_St": {
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/58eff5a7-5521-44ea-9c97-bd6040b43f6b_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 7320,
         "num_trucks_last_maintenance": 2408,
@@ -75,33 +45,18 @@
         "last_maintenance_date": "04-19-2021",
         "weather_score_last_maintenance": 77.7816,
         "weather_penalties": {
-            "rain": [
-                134,
-                3.7269
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                8,
-                8
-            ],
-            "cold_temp": [
-                29,
-                0.5187
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [134,3.7269],
+            "snow": [3,0.259],
+            "freezing_rain": [8,8],
+            "cold_temp": [29,0.5187],
+            "hot_temp": [227,9.7137],
             "total_penalty": 22.2184
         },
         "vehicle_score_last_maintenance": 7.8678,
         "total_score": 42.8247,
         "days_to_next_maintenance": 2227.75
     },
-    "Boulder_Hwy_+_Major_Ave": {
+    "Boulder_Hwy_and_Major_Ave": {
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/dccccb52-23d5-4ac5-a8d0-4261fced9ac1_lvflirxcd03_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 70250,
         "num_trucks_last_maintenance": 16892,
@@ -109,33 +64,18 @@
         "last_maintenance_date": "06-25-2020",
         "weather_score_last_maintenance": 77.7816,
         "weather_penalties": {
-            "rain": [
-                134,
-                3.7269
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                8,
-                8
-            ],
-            "cold_temp": [
-                29,
-                0.5187
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [134,3.7269],
+            "snow": [3,0.259],
+            "freezing_rain": [8,8],
+            "cold_temp": [29,0.5187],
+            "hot_temp": [227,9.7137],
             "total_penalty": 22.2184
         },
         "vehicle_score_last_maintenance": 62.8731,
         "total_score": 70.3273,
         "days_to_next_maintenance": 2749.25
     },
-    "Craig_Rd_+_Commerce_St": {
+    "Craig_Rd_and_Commerce_St": {
         "video_url": "https://d1wse1.its.nv.gov:443/vegasxcd01/2be839ce-7a45-434a-b057-6d20952e86c9_lvflirxcd01_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 8000,
         "num_trucks_last_maintenance": 2492,
@@ -143,33 +83,18 @@
         "last_maintenance_date": "01-20-2024",
         "weather_score_last_maintenance": 94.7043,
         "weather_penalties": {
-            "rain": [
-                27,
-                0.7695
-            ],
-            "snow": [
-                0,
-                0
-            ],
-            "freezing_rain": [
-                0,
-                0
-            ],
-            "cold_temp": [
-                0,
-                0
-            ],
-            "hot_temp": [
-                106,
-                4.5262
-            ],
+            "rain": [27,0.7695],
+            "snow": [0,0],
+            "freezing_rain": [0,0],
+            "cold_temp": [0,0],
+            "hot_temp": [106,4.5262],
             "total_penalty": 5.2957
         },
         "vehicle_score_last_maintenance": 8.3148,
         "total_score": 51.5096,
         "days_to_next_maintenance": 467.25
     },
-    "Durango_Dr_+_Ann_Rd": {
+    "Durango_Dr_and_Ann_Rd": {
         "video_url": "https://d1wse4.its.nv.gov:443/vegasxcd04/712df297-3589-4497-98e9-11ed822c705a_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 16500,
         "num_trucks_last_maintenance": 4594,
@@ -177,33 +102,18 @@
         "last_maintenance_date": "07-10-2021",
         "weather_score_last_maintenance": 77.7816,
         "weather_penalties": {
-            "rain": [
-                134,
-                3.7269
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                8,
-                8
-            ],
-            "cold_temp": [
-                29,
-                0.5187
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [134,3.7269],
+            "snow": [3,0.259],
+            "freezing_rain": [8,8],
+            "cold_temp": [29,0.5187],
+            "hot_temp": [227,9.7137],
             "total_penalty": 22.2184
         },
         "vehicle_score_last_maintenance": 16.0403,
         "total_score": 46.9109,
         "days_to_next_maintenance": 2084.25
     },
-    "Flamingo_Rd_+_Pecos_Rd": {
+    "Flamingo_Rd_and_Pecos_Rd": {
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/c51c091c-be44-420e-b4ed-f1ea024957fa_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 50000,
         "num_trucks_last_maintenance": 15832,
@@ -211,33 +121,18 @@
         "last_maintenance_date": "05-09-2023",
         "weather_score_last_maintenance": 90.4528,
         "weather_penalties": {
-            "rain": [
-                58,
-                2.1564
-            ],
-            "snow": [
-                1,
-                0.077
-            ],
-            "freezing_rain": [
-                0,
-                0
-            ],
-            "cold_temp": [
-                5,
-                0.115
-            ],
-            "hot_temp": [
-                159,
-                7.1988
-            ],
+            "rain": [58,2.1564],
+            "snow": [1,0.077],
+            "freezing_rain": [0,0],
+            "cold_temp": [5,0.115],
+            "hot_temp": [159,7.1988],
             "total_penalty": 9.5472
         },
         "vehicle_score_last_maintenance": 52.4898,
         "total_score": 71.4713,
         "days_to_next_maintenance": 915.25
     },
-    "I580_+_Neil_Rd": {
+    "I580_and_Neil_Rd": {
         "video_url": "https://d1wse2.its.nv.gov:443/vegasxcd02/c5b1bd96-f15a-42f3-805b-c9967885c87f_lvflirxcd03_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 30000,
         "num_trucks_last_maintenance": 7846,
@@ -245,33 +140,18 @@
         "last_maintenance_date": "11-21-2022",
         "weather_score_last_maintenance": 86.3623,
         "weather_penalties": {
-            "rain": [
-                91,
-                2.8287
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                3,
-                3
-            ],
-            "cold_temp": [
-                20,
-                0.3513
-            ],
-            "hot_temp": [
-                159,
-                7.1988
-            ],
+            "rain": [91,2.8287],
+            "snow": [3,0.259],
+            "freezing_rain": [3,3],
+            "cold_temp": [20,0.3513],
+            "hot_temp": [159,7.1988],
             "total_penalty": 13.6377
         },
         "vehicle_score_last_maintenance": 28.1346,
         "total_score": 57.2485,
         "days_to_next_maintenance": 1211.0
     },
-    "I580_+_Northgate": {
+    "I580_and_Northgate": {
         "video_url": "https://d1wse3.its.nv.gov:443/vegasxcd03/65388c60-a4aa-4164-941a-48d97a22e36e_lvflirxcd04_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 52000,
         "num_trucks_last_maintenance": 11748,
@@ -279,33 +159,18 @@
         "last_maintenance_date": "09-29-2020",
         "weather_score_last_maintenance": 77.7816,
         "weather_penalties": {
-            "rain": [
-                134,
-                3.7269
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                8,
-                8
-            ],
-            "cold_temp": [
-                29,
-                0.5187
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [134,3.7269],
+            "snow": [3,0.259],
+            "freezing_rain": [8,8],
+            "cold_temp": [29,0.5187],
+            "hot_temp": [227,9.7137],
             "total_penalty": 22.2184
         },
         "vehicle_score_last_maintenance": 45.004,
         "total_score": 61.3928,
         "days_to_next_maintenance": 2581.25
     },
-    "Las_Vegas_Blvd_+_Reno": {
+    "Las_Vegas_Blvd_and_Reno": {
         "video_url": "https://d1wse5.its.nv.gov:443/vegasxcd05/fcfc87c2-da9a-48b8-a10e-1760b2142140_lvflirxcd05_public.stream/playlist.m3u8",
         "num_cars_last_maintenance": 72435,
         "num_trucks_last_maintenance": 12467,
@@ -313,33 +178,18 @@
         "last_maintenance_date": "02-01-2021",
         "weather_score_last_maintenance": 77.7816,
         "weather_penalties": {
-            "rain": [
-                134,
-                3.7269
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                8,
-                8
-            ],
-            "cold_temp": [
-                29,
-                0.5187
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [134,3.7269],
+            "snow": [3,0.259],
+            "freezing_rain": [8,8],
+            "cold_temp": [29,0.5187],
+            "hot_temp": [227,9.7137],
             "total_penalty": 22.2184
         },
         "vehicle_score_last_maintenance": 54.7696,
         "total_score": 66.2756,
         "days_to_next_maintenance": 2362.5
     },
-    "10th_Ave_+_14th_St": {
+    "10th_Ave_and_14th_St": {
         "video_url": null,
         "num_cars_last_maintenance": 87418,
         "num_trucks_last_maintenance": 15427,
@@ -347,33 +197,18 @@
         "last_maintenance_date": "10-17-2023",
         "weather_score_last_maintenance": 94.3521,
         "weather_penalties": {
-            "rain": [
-                36,
-                0.9297
-            ],
-            "snow": [
-                1,
-                0.077
-            ],
-            "freezing_rain": [
-                0,
-                0
-            ],
-            "cold_temp": [
-                5,
-                0.115
-            ],
-            "hot_temp": [
-                106,
-                4.5262
-            ],
+            "rain": [36,0.9297],
+            "snow": [1,0.077],
+            "freezing_rain": [0,0],
+            "cold_temp": [5,0.115],
+            "hot_temp": [106,4.5262],
             "total_penalty": 5.6479
         },
         "vehicle_score_last_maintenance": 66.8732,
         "total_score": 80.6127,
         "days_to_next_maintenance": 633.5
     },
-    "5th_Ave_+_23rd_St": {
+    "5th_Ave_and_23rd_St": {
         "video_url": null,
         "num_cars_last_maintenance": 133512,
         "num_trucks_last_maintenance": 22511,
@@ -381,60 +216,30 @@
         "last_maintenance_date": "04-01-2022",
         "weather_score_last_maintenance": 83.0517,
         "weather_penalties": {
-            "rain": [
-                124,
-                3.6243
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                3,
-                3
-            ],
-            "cold_temp": [
-                20,
-                0.3513
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [124,3.6243],
+            "snow": [3,0.259],
+            "freezing_rain": [3,3],
+            "cold_temp": [20,0.3513],
+            "hot_temp": [227,9.7137],
             "total_penalty": 16.9483
         },
         "vehicle_score_last_maintenance": 100.0,
         "total_score": 91.5258,
         "days_to_next_maintenance": 1620.5
     },
-    "Park_Ave_+_57th_St": {
-        "video_url": null,
+    "Bronx_River_Parkway_at_Sagamore_St": {
+        "video_url": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_236/playlist.m3u8",
         "num_cars_last_maintenance": 80910,
         "num_trucks_last_maintenance": 11395,
         "num_vehicles_last_maintenance": 92305,
         "weather_score_last_maintenance": 77.7816,
         "last_maintenance_date": "08-26-2020",
         "weather_penalties": {
-            "rain": [
-                134,
-                3.7269
-            ],
-            "snow": [
-                3,
-                0.259
-            ],
-            "freezing_rain": [
-                8,
-                8
-            ],
-            "cold_temp": [
-                29,
-                0.5187
-            ],
-            "hot_temp": [
-                227,
-                9.7137
-            ],
+            "rain": [134,3.7269],
+            "snow": [3,0.259],
+            "freezing_rain": [8,8],
+            "cold_temp": [29,0.5187],
+            "hot_temp": [227,9.7137],
             "total_penalty": 22.2184
         },
         "vehicle_score_last_maintenance": 56.0356,
